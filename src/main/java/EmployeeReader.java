@@ -2,6 +2,7 @@ import java.sql.*;
 
 public class EmployeeReader {
 
+    //  https://github.com/typowy1/lekcja24_jdbc_zapytania_sql_jdbc
     //https://javastart.pl/kurs/technologie-webowe/web-bazy-java/lekcja/web-sql-java
 
     public static void main(String[] args) throws SQLException {
@@ -48,5 +49,31 @@ public class EmployeeReader {
 //Błąd Access denied for user 'roots'@'localhost' (using password: YES)
 //
 //Wprowadzona nazwa użytkownika lub hasło nie są poprawne. Sprawdź, czy nie ma w nich literówki.
+
+        // pom
+        //<?xml version="1.0" encoding="UTF-8"?>
+        //<project xmlns="http://maven.apache.org/POM/4.0.0"
+        //         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        //         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+        //         http://maven.apache.org/xsd/maven-4.0.0.xsd">
+        //    <modelVersion>4.0.0</modelVersion>
+        //
+        //    <groupId>pl.javastart</groupId>
+        //    <artifactId>jdbc</artifactId>
+        //    <version>1.0-SNAPSHOT</version>
+        //
+        //    <properties>
+        //        <maven.compiler.source>14</maven.compiler.source>
+        //        <maven.compiler.target>14</maven.compiler.target>
+        //    </properties>
+        //
+        //    <dependencies>
+        //        <dependency>
+        //            <groupId>mysql</groupId>
+        //            <artifactId>mysql-connector-java</artifactId>
+        //            <version>8.0.21</version>
+        //        </dependency>
+        //    </dependencies>
+        //</project>
     }
 }
